@@ -1,0 +1,128 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:rgb(84, 84, 209);
+    color: white;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container input {
+    margin: 0 5px;
+    border-color: #1B4242;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  
+  .process-label {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #1B4242;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: rgb(56, 56, 187);
+  }
+  
+  th, td {
+    background-color: white;
+    border: 1px solid white;
+    padding: 8px;
+    width: 100px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .gantt-chart {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 20px;
+  }
+  
+  .gantt-block {
+    position: relative;
+    margin-right: 5px;
+  }
+  
+  .gantt-block-inner {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    background-color: #f2f2f2;
+  }
+  
+  .gantt-block-time {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .gantt-block-time-first {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .time-subscript {
+    position: absolute;
+    font-size: 0.8em;
+  }
+  
+  .start-time {
+    bottom: -15px;
+    left: -10px;
+  }
+  
+  .end-time {
+    bottom: -15px;
+    right: -10px;
+  }
+  
+  
+  
